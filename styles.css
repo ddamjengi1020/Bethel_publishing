@@ -1,0 +1,11 @@
+
+/* Config */
+@import "./reset.css";
+@import "./fonts.css";
+
+/* Partials */
+@import "./header.css";
+@import "./footer.css";
+
+/* Pages */
+@import "./home.css";
