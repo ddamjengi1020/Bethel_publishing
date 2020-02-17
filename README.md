@@ -1,20 +1,20 @@
-BETHEL
+**BETHEL**
 ==========
 > _Publishing_
 
 
-### **Page**
-- Progress
+### **Progress**
+
 Pages | HTML | CSS
 ------|------|-----
-Main | ✅ |
-Sub Search | |
-Sub Intro | |
-Sub Worship | |
-Sub Christian Life | |
-Sub Education&Care | |
-Sub Community | |
-Sub Bethel Story | |
+Main | <center>✅</center> | <center>❌</center>
+Sub Search | <center>❌</center> | <center>❌</center>
+Sub Intro | <center>❌</center> | <center>❌</center>
+Sub Worship | <center>❌</center> | <center>❌</center>
+Sub Christian Life | <center>❌</center> | <center>❌</center>
+Sub Education&Care | <center>❌</center> | <center>❌</center>
+Sub Community | <center>❌</center> | <center>❌</center>
+Sub Bethel Story | <center>❌</center> | <center>❌</center>
 
 <br>
 
