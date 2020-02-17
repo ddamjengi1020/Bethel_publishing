@@ -9,7 +9,7 @@ Pages | HTML | CSS
 ------|------|-----
 Main | <center>✅</center> | <center>❌</center>
 Sub Search | <center>❌</center> | <center>❌</center>
-Sub Intro | <center>❌</center> | <center>❌</center>
+Sub Intro | <center>✅</center> | <center>❌</center>
 Sub Worship | <center>❌</center> | <center>❌</center>
 Sub Christian Life | <center>❌</center> | <center>❌</center>
 Sub Education&Care | <center>❌</center> | <center>❌</center>
