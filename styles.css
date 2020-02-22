@@ -9,3 +9,7 @@
 
 /* Pages */
 @import "./home.css";
+
+body,html{
+    background-color: #ededed;
+}
