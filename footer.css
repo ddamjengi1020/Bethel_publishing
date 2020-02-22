@@ -1,0 +1,163 @@
+.footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #e8e8e8;
+}
+
+.footer__container{
+    padding: 5% 13% 4% 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .footer__content1{
+    display: flex;
+    margin-bottom: 7%;
+
+}
+
+.footer .footer__content1 img{
+    width: 155px;
+}
+
+.footer .footer__content1 img:not(:last-child){
+    margin-right: 15px;
+}
+
+.footer .footer__content2{
+    padding: 0 15% 4% 15%;
+    display: grid;
+    grid-template-columns: 0.6fr 1.7fr 0.7fr;
+    border-bottom: 1px solid #2e2e2e;
+}
+
+.footer__content2 .content2__item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__content2 .content2__item1 div:first-child,
+.footer__content2 .content2__item3 div:first-child{
+    font-family: SCDream3;
+    font-size: 25px;
+    margin-bottom: 15%;
+    color: #2e2e2e;
+}
+.footer__content2 .content2__item1 div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__content2 .content2__item1 div:nth-child(2) a{
+    margin-bottom: 20%;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #2e2e2e;
+    text-decoration: none;
+    font-family: SCDream3;
+    font-size: 14px;
+    color:#2e2e2e;
+}
+
+.footer__content2 .content2__item3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__content2 .content2__item3 div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: SCDream3;
+}
+
+.footer__content2 .content2__item3 div:nth-child(2) a,
+.footer__content2 .content2__item3 div:nth-child(2) div{
+    text-decoration: none;
+    color:#2e2e2e;
+    margin-bottom: 14%;
+    display: flex;
+    align-items: center;
+}
+.footer__content2 .content2__item3 div:nth-child(2) a span {
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+.footer__content2 .content2__item3 div:nth-child(2) div{
+    font-size: 14px;
+}
+
+.content2__item3 div:nth-child(2) div strong{
+    font-family: SCDream5;
+}
+
+.content2__item3 div:nth-child(2) div strong u,
+.content2__item2-adress .adress__title u{
+    font-family: georgiaI;
+    font-weight: bold;
+    text-decoration: unset;
+}
+
+.footer__content2 .content2__item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.footer__content2 .content2__item2 div:first-child img{
+    width: 265px;
+    margin-bottom: 14%;
+}
+
+.content2__item2-adress{
+    max-width: 390px;
+    width: 100%;
+    padding: 0 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content2__item2-adress div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.content2__item2-adress div:last-child{
+    align-items:flex-start;
+}
+
+.content2__item2-adress .adress__title{
+    font-family: SCDream5;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.content2__item2-adress div span{
+    font-size: 14px;
+    font-family: SCDream3;
+}
+
+.content2__item2-adress .adress__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2px;
+}
+.adress__description span {
+    margin-bottom: 6px;
+}
+/* 인스타그램 페이스북 아이콘 */ 
+.footer__content2 .content2__item3 div a img{
+    width: 20px;
+}
+
+.footer__container .footer__content3{
+   font-family: SCDream3;
+   margin-top:3%; 
+}

@@ -1,0 +1,115 @@
+.main__content1 .content1-image img{
+    width: 100%;
+}
+
+.main__content1{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+}
+
+.main__content1 .content1-mainText{
+    width: 750px;
+    height: 230px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-size: 28px;
+    font-family: DXPnM-KSCpc-EUC-H;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+}
+.main__content1 .content1-mainText span:first-child{
+    text-align: center;
+}
+.main__content1 .content1-mainText span:last-child{
+    font-size: 25px;
+}
+.main__content1 .content1-icon1{
+    position: absolute;
+    bottom: 27%;
+    left: 19%;
+}
+.content1-icon1 img{
+    width: 140px;
+}
+.main__content1 .content1-icon2{
+    position: absolute;
+    bottom: 28%;
+    left: 30%;
+}
+.content1-icon2 img{
+    width: 50px;
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+.main__content1 .content1-icon3{
+    position: absolute;
+    top: 38%;
+    right: 12%;
+}
+.content1-icon3 img {
+    width: 110px;
+}
+.main__content1 .content1-icon4{
+    position: absolute;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    bottom: 14%;
+    right: 2%;
+}
+
+.content1-icon4 a img{
+    width: 23px;
+}
+
+.main__content1 .content1-sideText{
+    position: absolute;
+    right: 4%;
+    top: 46%;
+    color: white;
+}
+
+.content1-sideText span{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-family: NotoSansCJKkr-DemiLight;
+    font-size: 17px;
+}
+
+.main__content1 .content1-icon5{
+    position: absolute;
+    bottom: 14%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.content1-icon5 div{
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.content1-icon5 div:hover{
+    background-color: white;
+}
+
+.main-content4-img{
+    width: 100%;
+}
+
+.content3-item2-img{
+    width: 100%;
+}
