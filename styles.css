@@ -12,4 +12,5 @@
 
 body,html{
     background-color: #ededed;
+    overflow-x: hidden;
 }
