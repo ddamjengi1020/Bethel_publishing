@@ -9,6 +9,7 @@
 
 /* Pages */
 @import "./home.css";
+@import "./intro.css";
 
 body,html{
     background-color: #ededed;
