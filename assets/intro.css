@@ -12,7 +12,7 @@
 }
 
 .sh__image-left>img{
-    height: 350px;
+    height: 350.5px;
 }
 
 .sh__image-right>img{
@@ -72,7 +72,7 @@
 }
 
 .sh__text > div > div:nth-child(3){
-    font-size: 22px;
+    font-size: 21px;
     font-family: NotoSansCJKkr-DemiLight;
     line-height: 1.5;
 }

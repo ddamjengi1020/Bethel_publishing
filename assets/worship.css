@@ -1,0 +1,230 @@
+.worship {
+    padding-bottom: 15%;
+}
+
+.worship__description {
+    margin-top: 9%;
+    width: 75%;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.worship__description .wd__nav {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.worship__description .wd__nav > li {
+    background-color: #ffffff;
+    font-family: SCDream5;
+    font-size: 18px;
+    padding: 13px 25px;
+    border: 1.2px solid #9e0b0f;
+    cursor: pointer;
+    color: #9e0b0f;
+}
+
+.worship__description .wd__nav > li:hover{
+    background-color: #9e0b0f;
+    color: white;
+}
+
+.worship__description .wd__nav > li:not(:first-child) {
+    border-left: none;
+}
+
+.worship__description .wd__nav > li:first-child{
+    color: white;
+    background-color: #9e0b0f;
+}
+
+.worship .wd__contents {
+    width: 100%;
+    position: relative;
+    display: flex
+}
+
+.wd__contents .wd__contents-item1 > img {
+    max-width: 610px;
+}
+
+.wd__contents-item1 > .item1-title {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    color: white;
+    background-color: #9e0b0f;
+    font-size: 29px;
+    padding: 5px 0;
+    font-family: SCDream5;
+}
+
+.wd__contents-item1 > .item1-info {
+    position: absolute;
+    bottom: 244px;
+    left: 50px;
+    color: white;
+    font-family: SCDream5;
+    font-size: 29px;
+}
+
+.wd__contents-item1 > div {
+    position: absolute;
+    bottom: 75px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.wd__contents-item1 > div > div {
+    display: flex;
+}
+
+.wd__contents-item1 > div > div:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.wd__contents-item1 > div > div > span {
+    padding-right: 10px;
+    font-family: SCDream5;
+    font-size: 22px;
+}
+
+.wd__contents-item1 > div > div > div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 15px;
+}
+.wd__contents-item1 > div > div > div > span {
+    padding: 1px 0 0 15px;
+    font-family: SCDream4;
+    font-size: 16px;
+}
+
+.wd__contents-item1 > div > div > div > span:first-child{
+    border-left: 1.3px solid white;
+}
+
+.wd__contents-item1 > div > div > div > span > u {
+    text-decoration-line: none;
+    font-family: SCDream5;
+    font-size: 18px;
+}
+
+.wd__contents .wd__contents-item2 {
+    background-color: #9e0b0f;
+    max-width: 545px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wd__contents-item2 >div> .wd__item2-title {
+    font-family: SCDream5;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.wd__contents-item2 > div > div:nth-child(2){
+    color: white;
+    font-family: SCDream3;
+    line-height: 1.3;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.wd__contents-item2 > div > .wd__item2-btn {
+    padding: 12px 25px;
+    border: 1.2px solid white;
+    border-radius: 5px;
+    color: white;
+    width: fit-content;
+    font-family: SCDream4;
+    text-decoration-line: none;
+}
+
+.worship .worship__timeTable {
+    margin-top: 8%;
+    width: 74%;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.worship__timeTable .wt__title {
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.worship__timeTable .wt__title > div{
+    font-family: SCDream5;
+    color: #3b3946;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.worship__timeTable .wt__title > span{
+    font-family: SCDream3;
+    color: #545262;
+    font-size: 30px;
+}
+
+.worship__timeTable .wt__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+    margin-bottom: 40px;
+}
+
+.wt__container > .wt__subTitle {
+    max-width: 240px;
+    width: 100%;
+    text-align: center;
+}
+
+.wt__container > .wt__subTitle > div:first-child {
+    background-color: #9e0b0f;
+    color: white;
+    border-radius: 5px;
+    padding: 18px 0;
+    margin-bottom: 20px;
+    font-family: SCDream5;
+    font-size: 19px;
+}
+
+.wt__container > .wt__subTitle:first-child > div:first-child {
+    margin: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.wt__container .wt__subTitle img {
+    width: 220px;
+    height: 291px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.wt__container > .wt__subTitle > div:last-child > div{
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+    font-family: SCDream5;
+    font-size: 15px;
+    box-shadow: 4px 4px 10px rgba(182, 182, 182, 0.308);
+}
+
+.wt__container > .wt__subTitle > div:last-child > div > u {
+    color: #b40c12;
+}
