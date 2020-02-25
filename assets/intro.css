@@ -72,7 +72,7 @@
 }
 
 .sh__text > div > div:nth-child(3){
-    font-size: 21px;
+    font-size: 20px;
     font-family: NotoSansCJKkr-DemiLight;
     line-height: 1.5;
 }
@@ -194,13 +194,15 @@
     margin-bottom: 5%;
 }
 
-.intro .section2__content1>span:first-child{
+.intro .section2__content1>span:first-child,
+.life-title>span:first-child{
     font-size: 40px;
     font-family: SCDream5;
     border-right: 1.5px solid black;
 }
 
-.intro .section2__content1>span:last-child{
+.intro .section2__content1>span:last-child,
+.life-title>span:last-child{
     font-size: 19px;
     font-family: SCDream3;
     width: fit-content;

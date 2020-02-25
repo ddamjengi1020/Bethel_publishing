@@ -11,6 +11,7 @@
 @import "./home.css";
 @import "./intro.css";
 @import "./worship.css";
+@import "./life.css";
 
 body,html{
     background-color: #ededed;

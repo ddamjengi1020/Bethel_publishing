@@ -11,12 +11,14 @@
     margin-left: auto;
 }
 
-.worship__description .wd__nav {
+.worship__description .wd__nav,
+.life-nav {
     display: flex;
     margin-bottom: 5%;
 }
 
-.worship__description .wd__nav > li {
+.worship__description .wd__nav > li,
+.life-nav > li {
     background-color: #ffffff;
     font-family: SCDream5;
     font-size: 18px;
@@ -26,16 +28,19 @@
     color: #9e0b0f;
 }
 
-.worship__description .wd__nav > li:hover{
+.worship__description .wd__nav > li:hover,
+.life-nav > li:hover{
     background-color: #9e0b0f;
     color: white;
 }
 
-.worship__description .wd__nav > li:not(:first-child) {
+.worship__description .wd__nav > li:not(:first-child),
+.life-nav > li:not(:first-child) {
     border-left: none;
 }
 
-.worship__description .wd__nav > li:first-child{
+.worship__description .wd__nav > li:first-child,
+.life-nav > li:nth-child(4){
     color: white;
     background-color: #9e0b0f;
 }

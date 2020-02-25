@@ -1,0 +1,324 @@
+.life .life__contents-first {
+    margin: 10% 0;
+    width: 75%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 18%;
+}
+
+.life__contents-first > .topLeft,
+.life__contents-first > .bottomRight {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+}
+
+.life__contents-first > .topLeft > img,
+.life__contents-first > .bottomRight > img {
+    width: 420px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left:0;
+    margin: auto;
+}
+
+.life__contents-first > .topLeft > div:first-child,
+.life__contents-first > .bottomRight > div:first-child{
+    width: 280px;
+    height: 500px;
+    background-color: #9e0b0f;
+}
+
+.life__contents-first > .bottomRight > div:first-child {
+    right: 0;
+    margin-left: auto;
+}
+
+.life__contents-first > .topRight,
+.life__contents-first > .bottomLeft {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.life__contents-first > .topRight > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100px;
+    margin: auto;
+    height: 180px;
+}
+
+.life__contents-first > .topRight > div,
+.life__contents-first > .bottomLeft > div {
+    text-align: center;
+    font-family: DXPnM-KSCpc-EUC-H;
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+.life__contents-first > .topRight > div > strong,
+.life__contents-first > .bottomLeft > div > strong {
+    font-size: 30px;
+}
+
+.life .life__contents-second {
+    width: 75%;
+    padding: 13% 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.life-nav{
+    margin-bottom: 3%;
+}
+
+.life-title {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.life__contents-second .life-subContent {
+    display: flex;
+}
+
+.life-subContent > img {
+    width: 330px;
+}
+
+.life-subContent > div {
+    margin-left: 10px;
+    padding: 40px 50px;
+    max-width: 100%;
+    background-color: #9e0b0f;
+    display: grid;
+    grid-template-columns: 1.4fr 0.6fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr 0.5fr;
+    grid-template-areas:
+    "item1 item2"
+    "item3 item4"
+    "item5 item5"
+    "item6 .";
+
+    color: white;
+}
+
+.life-subContent > div > .rightContent-item1 {
+    grid-area: item1;
+    display: flex;
+    align-items: center;
+    font-family: SCDream5;
+}
+
+.life-subContent > div > .rightContent-item1 > span {
+    border: 1.2px solid white;
+    padding: 3% 5%;
+    cursor: pointer;
+}
+
+.life-subContent > div > .rightContent-item1 > span:hover {
+    background-color: white;
+    color: #9e0b0f;
+}
+
+.life-subContent > div > .rightContent-item1 > span:last-child {
+    padding: 3% 7%;
+    border-left: none;
+    background-color: white;
+    color: #9e0b0f;
+}
+
+.life-subContent > div > .rightContent-item2 {
+    grid-area: item2;
+    font-family: SCDream5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+} 
+
+.life-subContent > div > .rightContent-item2 > a {
+    font-size: 17px;
+    margin-right: 15%;
+    padding-bottom: 2px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.life-subContent > div > .rightContent-item3 {
+    grid-area: item3;
+    font-family: SCDream3;
+    padding-top: 7%;
+}
+
+.life-subContent > div > .rightContent-item3 > span {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.life-subContent > div > .rightContent-item4 {
+    position: relative;
+    grid-area: item4;
+} 
+
+.life-subContent > div > .rightContent-item4 > ul {
+    position: absolute;
+    width: fit-content;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+.life-subContent > div > .rightContent-item4 > ul > li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.life-subContent > div > .rightContent-item4 > ul > li:hover {
+    background-color: white;
+}
+
+.life-subContent > div > .rightContent-item4 > ul > li:not(:last-child){
+    margin-right: 20px;
+}
+
+.life-subContent > div > .rightContent-item4 > ul > li:first-child {
+    background-color: white;
+}
+
+.life-subContent > div > .rightContent-item4 > img {
+    width: 230px;
+}
+
+.life-subContent > div > .rightContent-item5 {
+    grid-area: item5;
+    font-family: SCDream3;
+    padding-top: 1%;
+    line-height: 1.4;
+} 
+
+.life-subContent > div > .rightContent-item6 {
+    grid-area: item6;
+    font-family: SCDream4;
+    display: flex;
+    align-items: center;
+} 
+
+.life-subContent > div > .rightContent-item6 > a {
+    padding: 10px 20px;
+    border: 1.2px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: white;
+}
+
+.life-subContent > div > .rightContent-item6 > a:hover {
+    background-color: white;
+    color: #9e0b0f;
+}
+
+.life__contents-third {
+    width: 75%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10%;
+}
+
+.life__contents-third > .life-subContent2 > .life-subContent-bg {
+    margin-top: 5%;
+    left: 0;
+    width: 85%;
+    height: 350px;
+    background-color: #9e0b0f;
+    z-index: -1;
+}
+
+.life__contents-third > .life-subContent2 {
+    position: relative;
+    z-index: 2;
+}
+
+.life__contents-third > .life-subContent2 > div {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    z-index: 1;
+    display: flex;
+}
+
+.life-subContent2 > div > div {
+    position: relative;
+    width: fit-content;
+    margin-right: 30px;
+}
+
+.life-subContent2 > div > div > div {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 8% 0;
+}
+
+.life-subContent2 > div > div > img {
+    width: 320px;
+}
+
+.life-subContent2 > div > div > div > div:nth-child(1) {
+    text-align: center;
+    font-family: SCDream5;
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+
+.life-subContent2 > div > div > div > div:nth-child(2) {
+    text-align: center;
+    font-family: SCDream4;
+    line-height: 1.3;
+    width: 88%;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    border-bottom: 1.3px solid white;
+    margin-bottom: 13px;
+}
+
+.life-subContent2 > div > div > div > div:nth-child(3) {
+    width: fit-content;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    font-family: SCDream4;
+    line-height: 1.4;
+    display: flex;
+    margin-bottom: 15px;
+}
+.life-subContent2 > div > div > div > div:nth-child(3) > span:first-child {
+    margin-right: 6px;
+}
