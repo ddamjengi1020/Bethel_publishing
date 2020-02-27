@@ -1,5 +1,5 @@
-.life .life__contents-first {
-    margin: 10% 0;
+.life__contents-first {
+    margin: 10% 0 12% 0;
     width: 75%;
     left: 0;
     right: 0;
@@ -74,7 +74,7 @@
 
 .life .life__contents-second {
     width: 75%;
-    padding: 13% 0;
+    padding: 9% 0;
     left: 0;
     right: 0;
     margin: auto;
@@ -237,6 +237,7 @@
 
 .life__contents-third {
     width: 75%;
+    min-height: 440px;
     right: 0;
     left: 0;
     margin-right: auto;
@@ -283,7 +284,7 @@
 }
 
 .life-subContent2 > div > div > img {
-    width: 320px;
+    width: 100%;
 }
 
 .life-subContent2 > div > div > div > div:nth-child(1) {
@@ -317,8 +318,109 @@
     font-family: SCDream4;
     line-height: 1.4;
     display: flex;
-    margin-bottom: 15px;
+    flex-direction: column;
 }
-.life-subContent2 > div > div > div > div:nth-child(3) > span:first-child {
+
+.life-subContent2 > div > div > div > div:nth-child(3)>div {
+    margin-bottom: 5%;
+}
+
+.life-subContent2 > div > div > div > div:nth-child(3)>div{
+    display: flex;
+}
+
+.life-subContent2 > div > div > div > div> div > span:first-child {
     margin-right: 6px;
+}
+
+.life-subContent2 > div > div:nth-child(3) > div > div:nth-child(3)> a {
+    margin-top: 10%;
+    background-color: #9e0b0f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: SCDream5;
+    width: fit-content;
+    color: white;
+}
+
+.life__contents-fourth {
+    width: 75%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4% 0 7% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.life__contents-fourth > .life-fourth__title{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.life__contents-fourth > .life-fourth__title > div:first-child {
+    font-family: SCDream5;
+    font-size: 45px;
+    margin-bottom: 5%;
+    color: #3b3946;   
+}
+
+.life__contents-fourth > .life-fourth__title > div:last-child {
+    font-family: SCDream3;
+    font-size: 33px;
+    color: #545262;   
+}
+
+.life__contents-fourth > .life-fourth__table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4%;
+}
+
+.life__contents-fourth > .life-fourth__table > div > img {
+    width: 100%;
+}
+
+.life__contents-fourth > .life-fourth__table > div > div {
+    position: relative;
+    text-align: center;
+    padding: 8%;
+    background-color: white;
+    min-height: 250px;
+    box-shadow: 5px 5px 10px rgba(170, 170, 170, 0.534);
+}
+
+.life__contents-fourth > .life-fourth__table > div > div > div:nth-child(1) {
+    font-family: SCDream5;
+    font-size: 30px;
+    margin-bottom: 7%;
+}
+
+.life__contents-fourth > .life-fourth__table > div > div > div:nth-child(2) {
+    font-family: DXPnM-KSCpc-EUC-H;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.life__contents-fourth > .life-fourth__table > div > div > a {
+    width: fit-content;
+    position: absolute;
+    bottom: 14%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding: 10px 22px;
+    border: 1.3px solid #9e0b0f;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: SCDream5;
+    color: #9e0b0f;
+    transition: all 0.1s linear;
+}
+
+.life__contents-fourth > .life-fourth__table > div > div > a:hover {
+    background-color: #9e0b0f;
+    color: white;
 }

@@ -1,0 +1,91 @@
+.community .topRight > div,
+.community .bottomLeft > div {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.community .topRight > div > div,
+.community .bottomLeft > div > div {
+    font-family: NotoSansCJKkr-DemiLight;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: -20px;
+}
+
+
+
+.community .community__ministry {
+    padding: 7%;
+}
+
+.community .cmntyMini__contents {
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.community__ministry > .wt__title {
+    margin-bottom: -5%;
+}
+
+.community__ministry .wd__nav {
+    margin-bottom: 2%;
+}
+
+.cmntyConts > .cmntyConts__item1 > img {
+    width: 100%;
+}
+
+.cmntyConts > .cmntyConts__item2 {
+    position: relative;
+    width: 80%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    padding: 8%;
+    color: white;
+    background-color: #9e0b0f;
+    font-family: SCDream3;
+    font-size: 15px;
+    line-height: 1.5;
+} 
+
+.cmntyConts > .cmntyConts__item2 > .cmntyConts__item-title > div {
+    font-size: 30px;
+    font-family: SCDream5;
+    margin-bottom: 17px;
+}
+
+.cmntyConts > .cmntyConts__item2 > div:nth-child(2) {
+    padding-top: 5%;
+}
+
+.cmntyConts > .cmntyConts__item2 > div:nth-child(2) > strong {
+    border-bottom: 1px solid white;
+    font-weight: 600;
+}
+
+.cmntyConts__item-btn {
+    position: absolute;
+    bottom: 15%;
+    left: 8%;
+}
+
+.cmntyConts__item-btn > a {
+    font-family: SCDream4;
+    border: 1.3px solid white;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-right: 5px;
+    color: white;
+    transition: all 0.1s linear;
+}
+
+.cmntyConts__item-btn > a:hover {
+    background-color: white;
+    color: #9e0b0f;
+}
