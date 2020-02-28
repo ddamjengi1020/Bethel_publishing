@@ -1,0 +1,300 @@
+.edu__school {
+    margin-top: 10%;
+}
+
+.edu__content-title {
+    width: fit-content;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.edu__content-title > div:first-child {
+    font-family: SCDream5;
+    font-size: 37px;
+    color: #3b3946;
+    margin-bottom: 10px;
+}
+
+.edu__content-title > div:last-child {
+    font-family: SCDream3;
+    font-size: 30px;
+    color: #545262;
+}
+
+.edu__school > hr {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 60%;
+    border: 1.2px solid black;
+    border-top: none;
+}
+
+.edu__school-nav {
+
+    width: 25%;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3.5%;
+}
+
+.edu__school-nav > a {
+    font-family: SCDream3;
+    font-size: 22px;
+    color: #9e0b0f;
+    border-bottom: 1.1px solid #9e0b0f;
+    margin: 0 5%;
+}
+
+.edu-sliderMask div {
+    width: 100%;
+    grid-template-columns: 0.1fr repeat(5, 1fr) 0.1fr;
+    display: grid;
+    grid-gap: 7px;
+}
+
+.edu-sliderMask div > img {
+    width: 100%;
+}
+
+.edu__school-sliderNum {
+    width: 25%;
+    left: 0;
+    right: 0;
+    margin: 4% auto;
+}
+
+.edu__school-sliderNum > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu__school-sliderNum > div > img {
+    width: 11%;
+    cursor: pointer;
+}
+
+.edu__school-sliderNum > div > div {
+    width: 40%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu__school-sliderNum > div > div > span{
+    font-family: SCDream5;
+    font-size: 23px;
+    color: #a3a2a5;
+    cursor: pointer;
+}
+
+.edu__school-sliderNum > div > div > span:first-child {
+    color: #3b3946;
+}
+
+.edu__school-sliderNum > div > div > span:hover {
+    color: #3b3946;
+}
+
+.edu__ministry {
+    width: 70%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.edu__contents-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9%;
+}
+
+.edu__contents-title > span:first-child {
+    font-family: SCDream5;
+    font-size: 40px;
+    padding: 1% 0;
+    padding-right: 15%;
+    border-right: 1.2px solid black;
+}
+
+.edu__contents-title > span:last-child {
+    font-family: SCDream3;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.edu__contents-title > span:last-child > strong {
+    font-family: SCDream5;
+}
+
+.edu__ministry-main {
+    position: relative;
+    margin-bottom: 6%;
+}
+
+.edu__ministry-main .edu__ministry-bg {
+    width: 90%;
+    min-height: 400px;
+    background-color: #9e0b0f;
+}
+
+.edu__ministry-main > div:first-child {
+    position: absolute;
+    top: -17%;
+    left: 5%;
+    width: 94%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3.5%;
+}
+
+.edu__ministry-main > div:first-child > img {
+    width: 100%;
+}
+
+.edu__ministry-btn {
+    width: fit-content;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 13px 25px;
+    background-color: #9e0b0f;
+    border-radius: 5px;
+    font-family: SCDream4;
+    font-size: 15px;
+    box-shadow: 4px 4px 13px rgb(141, 141, 141);
+}
+
+.edu__ministry-btn> a {
+    color: white;
+}
+
+.edu__meeting {
+    width: 70%;
+    left: 0;
+    right: 0;
+    margin: 8% auto;
+}
+
+.edu__meeting-title > span:first-child {
+    padding-right: 18%;
+}
+
+.edu__meeting-main > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.edu__meeting-main > div:first-child > img {
+    width: 100%;
+}
+
+.edu__meeting-main > div:first-child > div {
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 105%;
+    height: fit-content;
+    background-color: white;
+    padding: 10%;
+    margin-left: -100px;
+}
+
+.edu__meeting-main > div:first-child > div > div > .meeting__textBox-title {
+    font-family: SCDream5;
+    font-size: 28px;
+    margin-bottom: 5%;
+}
+
+.edu__meeting-main > div:first-child > div > div > div:last-child {
+    font-family: SCDream3;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.edu__meeting-main > div:last-child {
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: -4.7%;
+}
+
+.edu__meeting-main > div:last-child > div > img {
+    width: 100%;
+}
+
+.edu__parenting-main {
+    width: 60%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 15%;
+}
+
+.edu__parenting-main > div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 5%;
+    font-family: SCDream5;
+} 
+
+.edu__parenting-main > div > div > .parenting__item-title,
+.edu__parenting-main > div > div > .parenting__item-contents > div {
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 4px 4px 10px rgba(175, 175, 175, 0.349);
+}
+
+.edu__parenting-main > div > div > .parenting__item-title {
+    margin-bottom: 8%;
+    font-size: 17px;
+}
+
+.edu__parenting-main > div > div > .parenting__item-title > span {
+    padding: 3px 15px;
+}
+
+.edu__parenting-main > div > div > .parenting__item-title > span:first-child {
+    border-right: 2px solid #9e0b0f;
+}
+
+.edu__parenting-main > div > div > .parenting__item-contents > div {
+    margin-bottom: 3%;
+    font-size: 14px;
+}
+
+.icon-border {
+    border: 1.2px solid #cccccc;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-border > img {
+    width: 17px;
+}

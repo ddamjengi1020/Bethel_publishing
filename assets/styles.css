@@ -14,6 +14,7 @@
 @import "./life.css";
 @import "./community.css";
 @import "./search.css";
+@import "./education.css";
 
 body,html{
     background-color: #ededed;
