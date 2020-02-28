@@ -541,7 +541,8 @@ a{
     margin-bottom: 10px;
 }
 
-.main-content3 .content3-item3{
+.main-content3 .content3-item3,
+.infoSlider .content3-item3{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -616,8 +617,12 @@ a{
     cursor: pointer;
 }
 
-.item3__paging .item3__paging-num>:hover{
-    color: #a50d11;
+.item3__paging .item3__paging-num>span:first-child{
+    color: #3b3946;
+}
+
+.item3__paging .item3__paging-num>span:hover{
+    color: #3b3946;
 }
 
 .item3__paging .item3__paging-icon>img{

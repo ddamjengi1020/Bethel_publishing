@@ -15,8 +15,10 @@
 @import "./community.css";
 @import "./search.css";
 @import "./education.css";
+@import "./story.css";
 
 body,html{
     background-color: #ededed;
     overflow-x: hidden;
+    height: 100%;
 }

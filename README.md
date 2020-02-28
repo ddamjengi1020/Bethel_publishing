@@ -14,7 +14,7 @@ Sub Worship | <center>✅</center> | <center>✅</center>
 Sub Christian Life | <center>✅</center> | <center>✅</center>
 Sub Education&Care | <center>✅</center> | <center>✅</center>
 Sub Community | <center>✅</center> | <center>✅</center>
-Sub Bethel Story | <center>✅</center> | <center>❌</center>
+Sub Bethel Story | <center>✅</center> | <center>✅</center>
 header | <center>✅</center> | <center>✅</center>
 footer | <center>✅</center> | <center>✅</center>
 

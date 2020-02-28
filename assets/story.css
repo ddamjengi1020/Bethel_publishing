@@ -1,0 +1,136 @@
+.story__infoSlider {
+    padding-top: 10%;
+    padding-bottom: 8%;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(177, 177, 177, 0.363)
+}
+
+.story__infoSlider > div:first-child {
+    margin-bottom: 4%;
+}
+
+.story__main {
+    margin-top: 7%;
+    margin-bottom: 9%;
+}
+
+.story__main .storyMain__nav {
+    width: 60%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.storyMain__nav > ul {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+}
+
+.storyMain__nav > ul > li {
+    background-color: white;
+    padding: 13px 0;
+    font-family: SCDream5;
+    font-size: 17px;
+    color: #9e0b0f;
+    border: 1.3px solid #9e0b0f;
+    cursor: pointer;
+}
+
+.storyMain__nav > ul > li:not(:first-child) {
+    border-left: none;
+}
+
+.storyMain__nav > ul > li:first-child {
+    background-color: #9e0b0f;
+    color: white;
+}
+
+.storyMain__nav > ul > li:hover {
+    background-color: #9e0b0f;
+    color: white;
+}
+
+.storyMain__contents {
+    width: 70%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 75px;
+}
+
+.storyMain__contents .storyContents__item {
+    position: relative;
+}
+
+.storyContents__item .storyContents__item-bg {
+    width: 80%;
+    height: 195px;
+    background-color: #9e0b0f;
+}
+
+.storyContents__item > div:first-child {
+    position: absolute;
+    top: -20%;
+    left: 10%;
+}
+
+.storyContents__item > div:first-child > div {
+    position: relative;
+    width: 100%;
+}
+
+.storyContents__item > div:first-child > div > img {
+    width: 90%;
+}
+
+.storyContents__item > div:first-child > div > span {
+    position: absolute;
+    color: white;
+}
+
+.storyContents__item > div:first-child > div > .contents-time {
+    bottom: 20%;
+    left: 10%;
+    font-family: SCDream3;
+    
+}
+
+.storyContents__item > div:first-child > div > .contents-name {
+    bottom: 10%;
+    left: 10%;
+    font-family: SCDream5;
+}
+
+.storyContents__item > div:first-child > div > .contents-genre {
+    top: 0;
+    right: 10.3%;
+    padding: 10px 20px;
+    background-color: #9e0b0f;
+    font-family: SCDream4;
+    font-size: 14px;
+}
+
+.storyMain__more-btn {
+    width: fit-content;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 6%;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: #9e0b0f;
+    font-family: SCDream5;
+    font-size: 20px;
+    box-shadow: 4px 4px 13px rgba(131, 131, 131, 0.74);
+    cursor: pointer;
+}
+
+.storyMain__more-btn > a {
+    color: white;
+}
