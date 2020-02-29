@@ -2,7 +2,7 @@
     position: relative;    
     margin-top: 13%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 0.9fr 1.1fr;
 }
 
 .sub__header .sh__image-left{
@@ -12,11 +12,11 @@
 }
 
 .sh__image-left>img{
-    height: 350.5px;
+    width: 96.6%;
 }
 
 .sh__image-right>img{
-    height: 340px;
+    width: 100%;
 }
 
 .sub__header .sh__image-right{
