@@ -1,0 +1,21 @@
+{
+  "name": "bethel-pb",
+  "version": "1.0.0",
+  "description": "**BETHEL**\r ==========\r > _Publishing_",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddamjengi1020/Bethel_publishing.git"
+  },
+  "author": "juno",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-csso": "^4.0.1"
+  },
+  "scripts": {
+    "start": "cd src && gulp dev"
+  }
+}
