@@ -53,7 +53,7 @@ function deploy() {
   return gulp.src("./**/*").pipe(ghPages());
 }
 
-const dev = gulp.series([clean, styles, image, js]);
+const dev = gulp.series([styles]);
 
 module.exports.dev = dev;
 

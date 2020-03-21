@@ -127,6 +127,7 @@
 .life-subContent > div > .rightContent-item1 > span {
     border: 1.2px solid white;
     padding: 3% 5%;
+    width: fit-content;
     cursor: pointer;
 }
 
