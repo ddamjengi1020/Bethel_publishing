@@ -25,6 +25,10 @@ function clean() {
   return del(["bundle"]);
 }
 
+function publishClean() {
+  return del([".publish"]);
+}
+
 function js() {
   return gulp.src(paths.js.src).pipe(gulp.dest(paths.js.dest));
 }
@@ -55,6 +59,8 @@ function deploy() {
 
 const dev = gulp.series([clean, styles, image, js]);
 
+const _deploy = gulp.series([publishClean, deploy]);
+
 module.exports.dev = dev;
 
-module.exports.deploy = deploy;
+module.exports.deploy = _deploy;
