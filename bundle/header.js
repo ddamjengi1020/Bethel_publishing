@@ -4,7 +4,7 @@ const header_lag = document.querySelector(".header__item.language");
 const header_logo = document.querySelector(".main-logo a img");
 const header_userIcon = document.querySelectorAll(".users-icon a img");
 
-const ICON = "./bundle/images/icon/";
+const ICON = "images/icon/";
 
 const userIconScroll = (x, y, z) => {
   for (let i = 0; i < header_userIcon.length; i++) {

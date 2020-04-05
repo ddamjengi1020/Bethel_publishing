@@ -9,16 +9,16 @@ const ghPages = require("gulp-gh-pages");
 const paths = {
   img: {
     src: "images/**/*",
-    dest: "bundle/images"
+    dest: "bundle/images",
   },
   css: {
     src: "assets/*.css",
-    dest: "bundle"
+    dest: "bundle",
   },
   js: {
     src: "assets/js/*.js",
-    dest: "bundle"
-  }
+    dest: "bundle",
+  },
 };
 
 function clean() {
@@ -41,7 +41,7 @@ function styles() {
     .src(paths.css.src)
     .pipe(
       autoprefixer({
-        overrideBrowserlist: ["last 2 versions"]
+        overrideBrowserlist: ["last 2 versions"],
       })
     )
     .pipe(concat("styles.css"))
@@ -53,7 +53,7 @@ function deploy() {
   return gulp.src("./**/*").pipe(ghPages());
 }
 
-const dev = gulp.series([styles]);
+const dev = gulp.series([clean, styles, image, js]);
 
 module.exports.dev = dev;
 

@@ -1,0 +1,23 @@
+
+/* Config */
+@import "./reset.css";
+@import "./fonts.css";
+
+/* Partials */
+@import "./header.css";
+@import "./footer.css";
+
+/* Pages */
+@import "./home.css";
+@import "./intro.css";
+@import "./worship.css";
+@import "./life.css";
+@import "./community.css";
+@import "./search.css";
+@import "./education.css";
+@import "./story.css";
+
+body,html{
+    background-color: #ededed;
+    height: 100%;
+}
